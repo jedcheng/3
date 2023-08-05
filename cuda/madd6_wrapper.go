@@ -96,14 +96,6 @@ func k_madd6_async(dst unsafe.Pointer, src1 unsafe.Pointer, fac1 float32, src2 u
 
 // maps compute capability on PTX code for madd6 kernel.
 var madd6_map = map[int]string{0: "",
-	30: madd6_ptx_30,
-	35: madd6_ptx_35,
-	37: madd6_ptx_37,
-	50: madd6_ptx_50,
-	52: madd6_ptx_52,
-	53: madd6_ptx_53,
-	60: madd6_ptx_60,
-	61: madd6_ptx_61,
 	70: madd6_ptx_70,
 	75: madd6_ptx_75}
 

@@ -84,14 +84,6 @@ func k_madd4_async(dst unsafe.Pointer, src1 unsafe.Pointer, fac1 float32, src2 u
 
 // maps compute capability on PTX code for madd4 kernel.
 var madd4_map = map[int]string{0: "",
-	30: madd4_ptx_30,
-	35: madd4_ptx_35,
-	37: madd4_ptx_37,
-	50: madd4_ptx_50,
-	52: madd4_ptx_52,
-	53: madd4_ptx_53,
-	60: madd4_ptx_60,
-	61: madd4_ptx_61,
 	70: madd4_ptx_70,
 	75: madd4_ptx_75}
 

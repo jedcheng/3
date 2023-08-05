@@ -135,16 +135,6 @@ func k_addcubicanisotropy2_async(Bx unsafe.Pointer, By unsafe.Pointer, Bz unsafe
 
 // maps compute capability on PTX code for addcubicanisotropy2 kernel.
 var addcubicanisotropy2_map = map[int]string{0: "",
-	30: addcubicanisotropy2_ptx_30,
-	32: addcubicanisotropy2_ptx_32,
-	35: addcubicanisotropy2_ptx_35,
-	37: addcubicanisotropy2_ptx_37,
-	50: addcubicanisotropy2_ptx_50,
-	52: addcubicanisotropy2_ptx_52,
-	53: addcubicanisotropy2_ptx_53,
-	60: addcubicanisotropy2_ptx_60,
-	61: addcubicanisotropy2_ptx_61,
-	62: addcubicanisotropy2_ptx_62,
 	70: addcubicanisotropy2_ptx_70,
 	72: addcubicanisotropy2_ptx_72,
 	75: addcubicanisotropy2_ptx_75}

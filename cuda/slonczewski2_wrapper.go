@@ -141,16 +141,6 @@ func k_addslonczewskitorque2_async(tx unsafe.Pointer, ty unsafe.Pointer, tz unsa
 
 // maps compute capability on PTX code for addslonczewskitorque2 kernel.
 var addslonczewskitorque2_map = map[int]string{0: "",
-	30: addslonczewskitorque2_ptx_30,
-	32: addslonczewskitorque2_ptx_32,
-	35: addslonczewskitorque2_ptx_35,
-	37: addslonczewskitorque2_ptx_37,
-	50: addslonczewskitorque2_ptx_50,
-	52: addslonczewskitorque2_ptx_52,
-	53: addslonczewskitorque2_ptx_53,
-	60: addslonczewskitorque2_ptx_60,
-	61: addslonczewskitorque2_ptx_61,
-	62: addslonczewskitorque2_ptx_62,
 	70: addslonczewskitorque2_ptx_70,
 	72: addslonczewskitorque2_ptx_72,
 	75: addslonczewskitorque2_ptx_75}

@@ -78,16 +78,6 @@ func k_regionaddv_async(dstx unsafe.Pointer, dsty unsafe.Pointer, dstz unsafe.Po
 
 // maps compute capability on PTX code for regionaddv kernel.
 var regionaddv_map = map[int]string{0: "",
-	30: regionaddv_ptx_30,
-	32: regionaddv_ptx_32,
-	35: regionaddv_ptx_35,
-	37: regionaddv_ptx_37,
-	50: regionaddv_ptx_50,
-	52: regionaddv_ptx_52,
-	53: regionaddv_ptx_53,
-	60: regionaddv_ptx_60,
-	61: regionaddv_ptx_61,
-	62: regionaddv_ptx_62,
 	70: regionaddv_ptx_70,
 	72: regionaddv_ptx_72,
 	75: regionaddv_ptx_75}

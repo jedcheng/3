@@ -66,16 +66,6 @@ func k_regiondecode_async(dst unsafe.Pointer, LUT unsafe.Pointer, regions unsafe
 
 // maps compute capability on PTX code for regiondecode kernel.
 var regiondecode_map = map[int]string{0: "",
-	30: regiondecode_ptx_30,
-	32: regiondecode_ptx_32,
-	35: regiondecode_ptx_35,
-	37: regiondecode_ptx_37,
-	50: regiondecode_ptx_50,
-	52: regiondecode_ptx_52,
-	53: regiondecode_ptx_53,
-	60: regiondecode_ptx_60,
-	61: regiondecode_ptx_61,
-	62: regiondecode_ptx_62,
 	70: regiondecode_ptx_70,
 	72: regiondecode_ptx_72,
 	75: regiondecode_ptx_75}

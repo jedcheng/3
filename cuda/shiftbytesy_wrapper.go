@@ -75,16 +75,6 @@ func k_shiftbytesy_async(dst unsafe.Pointer, src unsafe.Pointer, Nx int, Ny int,
 
 // maps compute capability on PTX code for shiftbytesy kernel.
 var shiftbytesy_map = map[int]string{0: "",
-	30: shiftbytesy_ptx_30,
-	32: shiftbytesy_ptx_32,
-	35: shiftbytesy_ptx_35,
-	37: shiftbytesy_ptx_37,
-	50: shiftbytesy_ptx_50,
-	52: shiftbytesy_ptx_52,
-	53: shiftbytesy_ptx_53,
-	60: shiftbytesy_ptx_60,
-	61: shiftbytesy_ptx_61,
-	62: shiftbytesy_ptx_62,
 	70: shiftbytesy_ptx_70,
 	72: shiftbytesy_ptx_72,
 	75: shiftbytesy_ptx_75}

@@ -81,16 +81,6 @@ func k_dotproduct_async(dst unsafe.Pointer, prefactor float32, ax unsafe.Pointer
 
 // maps compute capability on PTX code for dotproduct kernel.
 var dotproduct_map = map[int]string{0: "",
-	30: dotproduct_ptx_30,
-	32: dotproduct_ptx_32,
-	35: dotproduct_ptx_35,
-	37: dotproduct_ptx_37,
-	50: dotproduct_ptx_50,
-	52: dotproduct_ptx_52,
-	53: dotproduct_ptx_53,
-	60: dotproduct_ptx_60,
-	61: dotproduct_ptx_61,
-	62: dotproduct_ptx_62,
 	70: dotproduct_ptx_70,
 	72: dotproduct_ptx_72,
 	75: dotproduct_ptx_75}

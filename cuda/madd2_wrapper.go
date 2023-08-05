@@ -72,16 +72,6 @@ func k_madd2_async(dst unsafe.Pointer, src1 unsafe.Pointer, fac1 float32, src2 u
 
 // maps compute capability on PTX code for madd2 kernel.
 var madd2_map = map[int]string{0: "",
-	30: madd2_ptx_30,
-	32: madd2_ptx_32,
-	35: madd2_ptx_35,
-	37: madd2_ptx_37,
-	50: madd2_ptx_50,
-	52: madd2_ptx_52,
-	53: madd2_ptx_53,
-	60: madd2_ptx_60,
-	61: madd2_ptx_61,
-	62: madd2_ptx_62,
 	70: madd2_ptx_70,
 	72: madd2_ptx_72,
 	75: madd2_ptx_75}

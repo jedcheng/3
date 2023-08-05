@@ -66,16 +66,6 @@ func k_kernmulC_async(fftM unsafe.Pointer, fftK unsafe.Pointer, Nx int, Ny int, 
 
 // maps compute capability on PTX code for kernmulC kernel.
 var kernmulC_map = map[int]string{0: "",
-	30: kernmulC_ptx_30,
-	32: kernmulC_ptx_32,
-	35: kernmulC_ptx_35,
-	37: kernmulC_ptx_37,
-	50: kernmulC_ptx_50,
-	52: kernmulC_ptx_52,
-	53: kernmulC_ptx_53,
-	60: kernmulC_ptx_60,
-	61: kernmulC_ptx_61,
-	62: kernmulC_ptx_62,
 	70: kernmulC_ptx_70,
 	72: kernmulC_ptx_72,
 	75: kernmulC_ptx_75}

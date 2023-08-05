@@ -84,16 +84,6 @@ func k_setmaxangle_async(dst unsafe.Pointer, mx unsafe.Pointer, my unsafe.Pointe
 
 // maps compute capability on PTX code for setmaxangle kernel.
 var setmaxangle_map = map[int]string{0: "",
-	30: setmaxangle_ptx_30,
-	32: setmaxangle_ptx_32,
-	35: setmaxangle_ptx_35,
-	37: setmaxangle_ptx_37,
-	50: setmaxangle_ptx_50,
-	52: setmaxangle_ptx_52,
-	53: setmaxangle_ptx_53,
-	60: setmaxangle_ptx_60,
-	61: setmaxangle_ptx_61,
-	62: setmaxangle_ptx_62,
 	70: setmaxangle_ptx_70,
 	72: setmaxangle_ptx_72,
 	75: setmaxangle_ptx_75}

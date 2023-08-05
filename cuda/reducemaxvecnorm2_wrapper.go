@@ -72,16 +72,6 @@ func k_reducemaxvecnorm2_async(x unsafe.Pointer, y unsafe.Pointer, z unsafe.Poin
 
 // maps compute capability on PTX code for reducemaxvecnorm2 kernel.
 var reducemaxvecnorm2_map = map[int]string{0: "",
-	30: reducemaxvecnorm2_ptx_30,
-	32: reducemaxvecnorm2_ptx_32,
-	35: reducemaxvecnorm2_ptx_35,
-	37: reducemaxvecnorm2_ptx_37,
-	50: reducemaxvecnorm2_ptx_50,
-	52: reducemaxvecnorm2_ptx_52,
-	53: reducemaxvecnorm2_ptx_53,
-	60: reducemaxvecnorm2_ptx_60,
-	61: reducemaxvecnorm2_ptx_61,
-	62: reducemaxvecnorm2_ptx_62,
 	70: reducemaxvecnorm2_ptx_70,
 	72: reducemaxvecnorm2_ptx_72,
 	75: reducemaxvecnorm2_ptx_75}

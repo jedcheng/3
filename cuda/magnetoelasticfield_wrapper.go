@@ -129,16 +129,6 @@ func k_addmagnetoelasticfield_async(Bx unsafe.Pointer, By unsafe.Pointer, Bz uns
 
 // maps compute capability on PTX code for addmagnetoelasticfield kernel.
 var addmagnetoelasticfield_map = map[int]string{0: "",
-	30: addmagnetoelasticfield_ptx_30,
-	32: addmagnetoelasticfield_ptx_32,
-	35: addmagnetoelasticfield_ptx_35,
-	37: addmagnetoelasticfield_ptx_37,
-	50: addmagnetoelasticfield_ptx_50,
-	52: addmagnetoelasticfield_ptx_52,
-	53: addmagnetoelasticfield_ptx_53,
-	60: addmagnetoelasticfield_ptx_60,
-	61: addmagnetoelasticfield_ptx_61,
-	62: addmagnetoelasticfield_ptx_62,
 	70: addmagnetoelasticfield_ptx_70,
 	72: addmagnetoelasticfield_ptx_72,
 	75: addmagnetoelasticfield_ptx_75}

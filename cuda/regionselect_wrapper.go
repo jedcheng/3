@@ -69,16 +69,6 @@ func k_regionselect_async(dst unsafe.Pointer, src unsafe.Pointer, regions unsafe
 
 // maps compute capability on PTX code for regionselect kernel.
 var regionselect_map = map[int]string{0: "",
-	30: regionselect_ptx_30,
-	32: regionselect_ptx_32,
-	35: regionselect_ptx_35,
-	37: regionselect_ptx_37,
-	50: regionselect_ptx_50,
-	52: regionselect_ptx_52,
-	53: regionselect_ptx_53,
-	60: regionselect_ptx_60,
-	61: regionselect_ptx_61,
-	62: regionselect_ptx_62,
 	70: regionselect_ptx_70,
 	72: regionselect_ptx_72,
 	75: regionselect_ptx_75}

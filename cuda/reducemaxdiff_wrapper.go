@@ -69,16 +69,6 @@ func k_reducemaxdiff_async(src1 unsafe.Pointer, src2 unsafe.Pointer, dst unsafe.
 
 // maps compute capability on PTX code for reducemaxdiff kernel.
 var reducemaxdiff_map = map[int]string{0: "",
-	30: reducemaxdiff_ptx_30,
-	32: reducemaxdiff_ptx_32,
-	35: reducemaxdiff_ptx_35,
-	37: reducemaxdiff_ptx_37,
-	50: reducemaxdiff_ptx_50,
-	52: reducemaxdiff_ptx_52,
-	53: reducemaxdiff_ptx_53,
-	60: reducemaxdiff_ptx_60,
-	61: reducemaxdiff_ptx_61,
-	62: reducemaxdiff_ptx_62,
 	70: reducemaxdiff_ptx_70,
 	72: reducemaxdiff_ptx_72,
 	75: reducemaxdiff_ptx_75}

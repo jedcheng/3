@@ -87,16 +87,6 @@ func k_crop_async(dst unsafe.Pointer, Dx int, Dy int, Dz int, src unsafe.Pointer
 
 // maps compute capability on PTX code for crop kernel.
 var crop_map = map[int]string{0: "",
-	30: crop_ptx_30,
-	32: crop_ptx_32,
-	35: crop_ptx_35,
-	37: crop_ptx_37,
-	50: crop_ptx_50,
-	52: crop_ptx_52,
-	53: crop_ptx_53,
-	60: crop_ptx_60,
-	61: crop_ptx_61,
-	62: crop_ptx_62,
 	70: crop_ptx_70,
 	72: crop_ptx_72,
 	75: crop_ptx_75}

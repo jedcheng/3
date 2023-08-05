@@ -81,16 +81,6 @@ func k_settopologicalcharge_async(s unsafe.Pointer, mx unsafe.Pointer, my unsafe
 
 // maps compute capability on PTX code for settopologicalcharge kernel.
 var settopologicalcharge_map = map[int]string{0: "",
-	30: settopologicalcharge_ptx_30,
-	32: settopologicalcharge_ptx_32,
-	35: settopologicalcharge_ptx_35,
-	37: settopologicalcharge_ptx_37,
-	50: settopologicalcharge_ptx_50,
-	52: settopologicalcharge_ptx_52,
-	53: settopologicalcharge_ptx_53,
-	60: settopologicalcharge_ptx_60,
-	61: settopologicalcharge_ptx_61,
-	62: settopologicalcharge_ptx_62,
 	70: settopologicalcharge_ptx_70,
 	72: settopologicalcharge_ptx_72,
 	75: settopologicalcharge_ptx_75}

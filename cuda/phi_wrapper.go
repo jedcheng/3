@@ -72,16 +72,6 @@ func k_setPhi_async(phi unsafe.Pointer, mx unsafe.Pointer, my unsafe.Pointer, Nx
 
 // maps compute capability on PTX code for setPhi kernel.
 var setPhi_map = map[int]string{0: "",
-	30: setPhi_ptx_30,
-	32: setPhi_ptx_32,
-	35: setPhi_ptx_35,
-	37: setPhi_ptx_37,
-	50: setPhi_ptx_50,
-	52: setPhi_ptx_52,
-	53: setPhi_ptx_53,
-	60: setPhi_ptx_60,
-	61: setPhi_ptx_61,
-	62: setPhi_ptx_62,
 	70: setPhi_ptx_70,
 	72: setPhi_ptx_72,
 	75: setPhi_ptx_75}

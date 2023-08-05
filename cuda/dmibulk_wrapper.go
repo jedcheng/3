@@ -111,16 +111,6 @@ func k_adddmibulk_async(Hx unsafe.Pointer, Hy unsafe.Pointer, Hz unsafe.Pointer,
 
 // maps compute capability on PTX code for adddmibulk kernel.
 var adddmibulk_map = map[int]string{0: "",
-	30: adddmibulk_ptx_30,
-	32: adddmibulk_ptx_32,
-	35: adddmibulk_ptx_35,
-	37: adddmibulk_ptx_37,
-	50: adddmibulk_ptx_50,
-	52: adddmibulk_ptx_52,
-	53: adddmibulk_ptx_53,
-	60: adddmibulk_ptx_60,
-	61: adddmibulk_ptx_61,
-	62: adddmibulk_ptx_62,
 	70: adddmibulk_ptx_70,
 	72: adddmibulk_ptx_72,
 	75: adddmibulk_ptx_75}

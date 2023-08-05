@@ -84,16 +84,6 @@ func k_llnoprecess_async(tx unsafe.Pointer, ty unsafe.Pointer, tz unsafe.Pointer
 
 // maps compute capability on PTX code for llnoprecess kernel.
 var llnoprecess_map = map[int]string{0: "",
-	30: llnoprecess_ptx_30,
-	32: llnoprecess_ptx_32,
-	35: llnoprecess_ptx_35,
-	37: llnoprecess_ptx_37,
-	50: llnoprecess_ptx_50,
-	52: llnoprecess_ptx_52,
-	53: llnoprecess_ptx_53,
-	60: llnoprecess_ptx_60,
-	61: llnoprecess_ptx_61,
-	62: llnoprecess_ptx_62,
 	70: llnoprecess_ptx_70,
 	72: llnoprecess_ptx_72,
 	75: llnoprecess_ptx_75}

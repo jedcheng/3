@@ -105,16 +105,6 @@ func k_addexchange_async(Bx unsafe.Pointer, By unsafe.Pointer, Bz unsafe.Pointer
 
 // maps compute capability on PTX code for addexchange kernel.
 var addexchange_map = map[int]string{0: "",
-	30: addexchange_ptx_30,
-	32: addexchange_ptx_32,
-	35: addexchange_ptx_35,
-	37: addexchange_ptx_37,
-	50: addexchange_ptx_50,
-	52: addexchange_ptx_52,
-	53: addexchange_ptx_53,
-	60: addexchange_ptx_60,
-	61: addexchange_ptx_61,
-	62: addexchange_ptx_62,
 	70: addexchange_ptx_70,
 	72: addexchange_ptx_72,
 	75: addexchange_ptx_75}

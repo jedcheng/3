@@ -87,16 +87,6 @@ func k_resize_async(dst unsafe.Pointer, Dx int, Dy int, Dz int, src unsafe.Point
 
 // maps compute capability on PTX code for resize kernel.
 var resize_map = map[int]string{0: "",
-	30: resize_ptx_30,
-	32: resize_ptx_32,
-	35: resize_ptx_35,
-	37: resize_ptx_37,
-	50: resize_ptx_50,
-	52: resize_ptx_52,
-	53: resize_ptx_53,
-	60: resize_ptx_60,
-	61: resize_ptx_61,
-	62: resize_ptx_62,
 	70: resize_ptx_70,
 	72: resize_ptx_72,
 	75: resize_ptx_75}

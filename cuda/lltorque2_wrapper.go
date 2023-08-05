@@ -90,16 +90,6 @@ func k_lltorque2_async(tx unsafe.Pointer, ty unsafe.Pointer, tz unsafe.Pointer, 
 
 // maps compute capability on PTX code for lltorque2 kernel.
 var lltorque2_map = map[int]string{0: "",
-	30: lltorque2_ptx_30,
-	32: lltorque2_ptx_32,
-	35: lltorque2_ptx_35,
-	37: lltorque2_ptx_37,
-	50: lltorque2_ptx_50,
-	52: lltorque2_ptx_52,
-	53: lltorque2_ptx_53,
-	60: lltorque2_ptx_60,
-	61: lltorque2_ptx_61,
-	62: lltorque2_ptx_62,
 	70: lltorque2_ptx_70,
 	72: lltorque2_ptx_72,
 	75: lltorque2_ptx_75}

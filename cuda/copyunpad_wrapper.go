@@ -78,16 +78,6 @@ func k_copyunpad_async(dst unsafe.Pointer, Dx int, Dy int, Dz int, src unsafe.Po
 
 // maps compute capability on PTX code for copyunpad kernel.
 var copyunpad_map = map[int]string{0: "",
-	30: copyunpad_ptx_30,
-	32: copyunpad_ptx_32,
-	35: copyunpad_ptx_35,
-	37: copyunpad_ptx_37,
-	50: copyunpad_ptx_50,
-	52: copyunpad_ptx_52,
-	53: copyunpad_ptx_53,
-	60: copyunpad_ptx_60,
-	61: copyunpad_ptx_61,
-	62: copyunpad_ptx_62,
 	70: copyunpad_ptx_70,
 	72: copyunpad_ptx_72,
 	75: copyunpad_ptx_75}
